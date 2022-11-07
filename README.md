@@ -1,40 +1,41 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# OOP school library
 
-> Description the project.
+> Imagine that you are the librarian of OOP University, and you need a tool to record what books are in the library and who borrows them. This app  will allow you to:
+
+- Add new students or teachers.
+- Add new books.
+- Save records of who borrowed a given book and when.
+
+And all of this is built in a beautiful and well-organized way!.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
+- Ruby
 
 
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
 
 
-To get a local copy up and running follow these simple example steps.
+
+## Get Started
+
+To get a local copy of this program, Please follow these simple example steps.
+
+1. Open Git Bash.
+2. Change the current working directory to the location where you want the cloned directory.
+   Ex: `C:User\your computer name\ cd <<your folder you want to clone to>>`
+3. Copy/Paste this command : `git clone https://github.com/edi-sipka/School_Library`  
+   then press Enter
+4. Run this command `code .` to open this folder in VScode
+5. Open terminal and run this command `ruby main.rb`
 
 ### Prerequisites
 
-### Setup
+Ruby runtime
 
-### Install
 
-### Usage
-
-### Run tests
-
-### Deployment
 
 
 
@@ -42,21 +43,16 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@yasinabdmahmood](https://github.com/yasinabdmahmood)
+- LinkedIn: [yaseen Abd alwahid](https://www.linkedin.com/in/yaseen-abdalwahid/)
 
-👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/yasinabdmahmood/OOP-school-library/issues).
 
 ## Show your support
 
