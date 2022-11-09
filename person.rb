@@ -1,4 +1,5 @@
 require_relative 'nameable'
+require_relative 'rental'
 
 class Person < Nameable
   attr_accessor :name, :age
@@ -25,5 +26,9 @@ class Person < Nameable
 
   def of_age?
     @age >= 18
+  end
+
+  def add_rental(book, date)
+    @rentals.push(Rental.new(date, book, self))
   end
 end
