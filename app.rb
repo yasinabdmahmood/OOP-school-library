@@ -49,10 +49,11 @@ class App
     print 'Do you want to create a students (1) or a teacher (2)? [input the number]: '
     option = gets
     print option
-    if Integer(option) == 1
-      create_student()
-    elsif Integer(option) == 2
-      create_teacher()
+    case Integer(option)
+    when 1
+      create_student
+    when 2
+      create_teacher
     else
       puts 'Invalid option'
     end
@@ -101,29 +102,33 @@ class App
     puts '7- Exit'
   end
 
+  def excute(option)
+    case option
+    when '1'
+      list_all_books
+    when '2'
+      list_all_people
+    when '3'
+      create_person
+    when '4'
+      create_book
+    when '5'
+      create_rental
+    when '6'
+      dispaly_rentals_by_id
+    when '7'
+      puts 'thanks for using this app'
+    else
+      puts 'Invalid option'
+    end
+  end
+
   def run
     loop do
       display_options
       option = gets.chomp
-      case option
-      when '1'
-        list_all_books
-      when '2'
-        list_all_people
-      when '3'
-        create_person
-      when '4'
-        create_book
-      when '5'
-        create_rental
-      when '6'
-        dispaly_rentals_by_id
-      when '7'
-        puts 'thanks for using this app'
-        break
-      else
-        puts 'Invalid option'
-      end
+      excute(option)
+      break if option == '7'
     end
   end
 end
