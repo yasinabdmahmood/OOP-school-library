@@ -5,7 +5,6 @@ AllCops:
     - "Guardfile"
     - "Rakefile"
     - "node_modules/**/*"
-    - "Metrics/CyclomaticComplexity"
 
   DisplayCopNames: true
 

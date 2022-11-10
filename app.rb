@@ -116,10 +116,6 @@ class App
       create_rental
     when '6'
       dispaly_rentals_by_id
-    when '7'
-      puts 'thanks for using this app'
-    else
-      puts 'Invalid option'
     end
   end
 
@@ -128,7 +124,10 @@ class App
       display_options
       option = gets.chomp
       excute(option)
-      break if option == '7'
+      if option == '7'
+        puts 'Thanks for using this app'
+        break
+      end
     end
   end
 end
